@@ -383,6 +383,7 @@ header {
 
 .purpose_block .container1 .row1 h2 {
 	color: white;
+	font-size: 60px;
 }
 
 .purpose_block .container1 .row1 small {
@@ -1868,6 +1869,22 @@ input[type="color"]:focus {
 
 @media (max-width: 1024px) {
 
+	.countdown{
+		padding: 22px;
+	}
+
+	h2 b {line-height:60px}
+
+	.sf-js-enabled {display: none;}
+	
+	img{
+		max-width:45%;
+	}
+
+	.intro-img{
+		display: flex;
+		justify-content: center;
+	}
 	
 }
 
@@ -1945,6 +1962,13 @@ input[type="color"]:focus {
 @media (min-width: 768px) and (max-width: 991px) {
 	.logo a {font-size:22px;}
 	
+	.countdown{
+		padding: 15px;
+	}
+
+	img {max-width: 70%;}
+
+	h2 {font-size: 50px}
 	
 	#search-form input:focus {width:42px;}
 	
@@ -1967,7 +1991,7 @@ input[type="color"]:focus {
 	
 	.purpose_block {padding-top:35px;}
 	.purpose_block .ipad_img1 {margin-top:-50px;}
-	.purpose_block p {font-size:12px; line-height:20px;}
+	.purpose_block p {font-size:20px; line-height:20px;}
 	
 	
 	.work_item a.zoom {width:40px; height:24px; margin-left:-20px;}
@@ -2051,9 +2075,6 @@ input[type="color"]:focus {
 	
 	
 /* __________ Menu __________ */
-	a.menu_toggler {display:inline-block; float:right; margin: 20px 0 0 20px; width:40px; height:40px; text-align:center; line-height:38px; font-size:23px; color:#fff; background-color:#333;}
-	a.menu_toggler:hover {background-color:#333;}
-	
 	.navmenu {position:absolute; left:0; right:0; top:80px; background-color:#fff;}
 	.navmenu ul {padding:10px 0;}
 	.navmenu ul li {display:block; text-align:left;}
@@ -2178,6 +2199,22 @@ input[type="color"]:focus {
 @media (max-width: 479px) {
 
 	#search-form {display:none;}
+
+	.navmenu ul {display: none;}
+
+	.time h2 {
+		font-size: 20px;
+		margin: 0;
+	  }
+	
+	  .top_slider .col-lg-6 .contents .head-title {font-size:40px}
+	  .top_slider .col-lg-6 .contents .tagp {font-size: 20px;}
+	  img{max-width: 80%;}
+	  h2 {font-size: 28px}
+	  h2 b {font-size: 28px;}
+	  .purpose_block p {font-size: 16px;}
+	  .cleancode_block p.title1 b {font-size: 50px;}
+	  .purpose_block .container1 .row1 h2 {font-size: 40px;}
 	
 	
 /* __________ Index __________ */
@@ -2235,6 +2272,23 @@ input[type="color"]:focus {
 	.col-ss-3 {width: 25%;}
 	.col-ss-2 {width: 16.666666666666664%;}
 	.col-ss-1 {width: 8.333333333333332%;}
+
+}
+
+@media (max-width: 376px) {
+	.contents {padding-top: 25%;}
+	.logo a {font-size: 16px;}
+	.time h2 {font-size: 14px;}
+	.top_slider .col-lg-6 .contents .head-title {font-size: 35px; line-height:60px}
+	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
+
+	.purpose_block p {font-size: 14px; margin-left: 2%; margin-right: 2%;}
+
+	.cleancode_block .nav-tabs {display: flex; justify-content: center;}
+	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
+	.cleancode_block .nav-tabs li a span {font-size: 12px;}
+
+	h2 b {font-size: 24px;}
 
 }
 
