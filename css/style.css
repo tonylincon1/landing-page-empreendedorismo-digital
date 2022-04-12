@@ -2198,12 +2198,16 @@ input[type="color"]:focus {
 
 @media (max-width: 479px) {
 
+	.logo {display: none;}
+
 	#search-form {display:none;}
+
+	#feature {display: none;}
 
 	.navmenu ul {display: none;}
 
 	.time h2 {
-		font-size: 20px;
+		font-size: 30px;
 		margin: 0;
 	  }
 	
@@ -2278,7 +2282,7 @@ input[type="color"]:focus {
 @media (max-width: 376px) {
 	.contents {padding-top: 25%;}
 	.logo a {font-size: 16px;}
-	.time h2 {font-size: 14px;}
+	.time h2 {font-size: 30px;}
 	.top_slider .col-lg-6 .contents .head-title {font-size: 35px; line-height:60px}
 	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
 
@@ -2289,6 +2293,33 @@ input[type="color"]:focus {
 	.cleancode_block .nav-tabs li a span {font-size: 12px;}
 
 	h2 b {font-size: 24px;}
+
+}
+
+@media (max-width: 320px) {
+	.contents {padding-top: 25%;}
+	.logo a {font-size: 16px;}
+	.time h2 {font-size: 30px;}
+
+	img {max-width: 100%;}
+
+	.top_slider .col-lg-6 .contents .head-title {font-size: 30px; line-height:60px}
+	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
+
+	.purpose_block p {font-size: 14px; margin-left: 4%; margin-right: 4%;}
+
+	.cleancode_block {padding-top: 28px;}
+
+	.cleancode_block p.title1 b {font-size: 40px;}
+
+	.cleancode_block .nav-tabs li a {width:70px}
+
+	.cleancode_block .nav-tabs {display: flex; justify-content: center;}
+	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
+	.cleancode_block .nav-tabs li a span {font-size: 10px;}
+
+	h2 b {font-size: 20px; display: flex; justify-content: center;}
+	.purpose_block .container1 .row1 h2 {font-size: 35px;}
 
 }
 
