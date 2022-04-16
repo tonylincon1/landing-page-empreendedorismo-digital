@@ -3,15 +3,9 @@ const minutesContainer = document.querySelector('#minutes')
 const hoursContainer = document.querySelector('#hours')
 const daysContainer = document.querySelector('#days')
 
-const secondsContainer1 = document.querySelector('#seconds1')
-const minutesContainer1 = document.querySelector('#minutes1')
-const hoursContainer1 = document.querySelector('#hours1')
-const daysContainer1 = document.querySelector('#days1')
-
 const nextYear = new Date().getFullYear()
 const newYearTime = new Date(`May 31 ${nextYear} 00:00:00`)
 const countdownContainer = document.querySelector('#countdown')
-const countdownContainer1 = document.querySelector('#countdown1')
 
 const getTimeUnit = unit =>  unit < 10 ? '0' + unit : unit
 
@@ -20,12 +14,6 @@ const insertCountdownValues = ({ days, hours, minutes, seconds }) => {
     minutesContainer.textContent = getTimeUnit(minutes)
     hoursContainer.textContent = getTimeUnit(hours)
     daysContainer.textContent = getTimeUnit(days)
-
-    secondsContainer1.textContent = getTimeUnit(seconds)
-    minutesContainer1.textContent = getTimeUnit(minutes)
-    hoursContainer1.textContent = getTimeUnit(hours)
-    daysContainer1.textContent = getTimeUnit(days)
-
 }
 
 const updateCountdown = () => {

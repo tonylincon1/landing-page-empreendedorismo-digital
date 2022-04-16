@@ -38,6 +38,7 @@
 	<script src="js/animate.js" type="text/javascript"></script>
 	<script src="js/jquery.BlackAndWhite.js"></script>
 	<script src="js/myscript.js" type="text/javascript"></script>
+	<script src="js/validatform.js"></script>
 	<script>
 		
 		//PrettyPhoto
@@ -136,19 +137,18 @@
 			</div>
 			<div class="forms">
 				<div class="content">
-					<form action="https://sheetdb.io/api/v1/4t8wn7u23apn1" method="post" id="Página1">
-					  <label for="Nome-Completo">Nome Completo</label>
-					  <input id="Nome-Completo" name="Nome-Completo" type="text">
+					<form name="form" id="Página1">
+					  <input id="Nome-Completo" name="Nome-Completo" type="text" placeholder="Nome Completo">
+					  <span class='msg-erro msg-nome'></span>
 				
-					  <label for="E-mail">E-mail</label>
-					  <input id="E-mail" name="E-mail" type="text">
+					  <input id="E-mail" name="E-mail" type="text" placeholder="E-mail">
+					  <span class='msg-erro msg-email'></span>
 
-					  <label for="Documento-(CPF/RG)">Documento (CPF/RG)</label>
-					  <input id="Documento-(CPF/RG)" name="Documento-(CPF/RG)" type="number">
+					  <input id="Documento-(CPF/RG)" name="Documento-(CPF/RG)" type="number" placeholder="Documento (CPF/RG)">
+					  <span class='msg-erro msg-documento'></span>
 				
-					  <label for="Estado">Estado</label>
-					  <select id="Estado" name="Estado">
-						<option value="---">--selecione--</option>
+					  <select id="Estado" name="Estado" placeholder="Estado">
+						<option value="">--Estado--</option>
 						<option value="AC">AC</option>
 						<option value="AL">AL</option>
 						<option value="AP">AP</option>
@@ -177,58 +177,42 @@
 						<option value="SE">SE</option>
 						<option value="TO">TO</option>
 					  </select>
+					  <span class='msg-erro msg-estado'></span>
 				
-					  <label for="Cidade">Cidade</label>
-					  <input id="Cidade" name="Cidade" type="text">
+					  <input id="Cidade" name="Cidade" type="text" placeholder="Cidade">
+					  <span class='msg-erro msg-cidade'></span>
 
-					  <label for="Universidade">Universidade</label>
-					  <input id="Universidade" name="Universidade" type="text">
+					  <input id="Universidade" name="Universidade" type="text" placeholder="Universidade">
+					  <span class='msg-erro msg-universidade'></span>
 
-					  <label for="Formato-(presencial/EAD)">Formato (presencial/EAD)</label>
-					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text">
+					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Formato (Presencial/EAD)">
+					  <span class='msg-erro msg-formato'></span>
 
-					  <label for="Número-de-matrícula">Número de matrícula</label>
-					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="number">
+					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="number" placeholder="Número de matrícula">
+					  <span class='msg-erro msg-matricula'></span>
 
-					  <label for="Curso">Curso</label>
-					  <input id="Curso" name="Curso" type="text">
+					  <input id="Curso" name="Curso" type="text" placeholder="Curso">
+					  <span class='msg-erro msg-curso'></span>
 
-					  <label for="Trabalha?">Trabalha?</label>
-					  <select id="Trabalha?" name="Trabalha?">
-						<option value="---">--selecione--</option>
+					  <select id="Trabalha?" name="Trabalha?" placeholder="Trabalha?">
+						<option value="">--Trabalha?--</option>
 						<option value="Sim">Sim</option>
 						<option value="Não">Não</option>
 					  </select>
+					  <span class='msg-erro msg-trabalha'></span>
 
-					  <label for="Necessidades-especiais?">Necessidades especiais?</label>
-					  <select id="Necessidades-especiais?" name="Necessidades-especiais?">
-						<option value="---">--selecione--</option>
+					  <select id="Necessidades-especiais?" name="Necessidades-especiais?" placeholder="Necessidades especiais?">
+						<option value="">--Necessidades especiais?--</option>
 						<option value="Sim">Sim</option>
 						<option value="Não">Não</option>
 					  </select>
+					  <span class='msg-erro msg-necessidades'></span>
 
-					  <label for="Se-sim-escreva-aqui">Se sim, escreva aqui</label>
-					  <input id="Se-sim-escreva-aqui" name="Se-sim-escreva-aqui" type="text">
+					  <input id="Se-sim-escreva-aqui" name="Se-sim-escreva-aqui" type="text" placeholder="Se sim, escreva aqui">
+					  <span class='msg-erro msg-SeSim'></span>
 				  
 					  <input type="submit" value="Enviar">
 					</form>
-
-					<script>
-						var form = document.getElementById('Página1');
-					form.addEventListener("submit", e => {
-					  e.preventDefault();
-					  fetch(form.action, {
-						  method : "POST",
-						  body: new FormData(document.getElementById("Página1")),
-					  }).then(
-						  response => response.json()
-					  ).then((html) => {
-						// you can put any JS code here
-						window.location.replace('index.html');
-			
-					  });
-					});
-					</script>
 
 			</div>
 		</section><!-- //HOME -->
@@ -254,6 +238,7 @@
 
 </div>
 
-<script src="js/app.js"></script>
+<script src="js/countdownHeader.js"></script>
+<script src="js/validatform.js"></script>
 </body>
 </html>
