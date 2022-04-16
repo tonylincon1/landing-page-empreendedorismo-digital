@@ -20,16 +20,31 @@ var form = document.getElementById('Página1');
         function required (tagErro,tagCampo,tagMensagem){
         caixa = document.querySelector(tagErro);
         if(tagCampo.value == ""){
-            caixa.innerHTML = "Favor preencher: ".concat(tagMensagem);
+            caixa.innerHTML = "*Favor preencher: ".concat(tagMensagem);
             caixa.style.display = 'block';
             contErro += 1;
         }else{
             caixa.style.display = 'none';
         }
         }
+
+        /* Email */
+        function validemail (tagErro,tagCampo){
+            filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            caixa = document.querySelector(tagErro);
+            if (filter.test(tagCampo.value)) {
+                caixa.style.display = 'none';
+            }
+            else{
+                caixa.innerHTML = "*Email não aceito. Por favor digite um e-mail valido.";
+                caixa.style.display = 'block';
+                contErro += 1;
+            }
+            }
     
         required('.msg-nome',nome,"Nome")
         required('.msg-email',email,"E-mail")
+        validemail('.msg-email',email)
         required('.msg-documento',documento,"Documento")
         required('.msg-estado',estado,"Estado")
         required('.msg-cidade',cidade,"Cidade")

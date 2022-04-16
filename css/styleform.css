@@ -1,7 +1,121 @@
-.content {width: 50%;}
+.content {width: 50%; background-color: black; border-radius: 4%;}
+
+form#Página1 {margin: 4%;}
 
 .containerforms{padding-top:8%;text-align: center;width:50%}
 
-.forms {display: flex; justify-content: right; padding-right: 10%; padding-bottom: 10%; padding-top: 2%;}
+.forms h2 {
+    color: white;
+    text-align: center;
+}
 
-.msg-erro{ color: red; }
+.forms p {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.texto {
+    width: 50%;
+}
+
+.forms {display: flex; justify-content: right; padding-right: 2%; padding-left: 2%; padding-bottom: 10%; padding-top: 5%;
+    background-image: url("../images/inscricao.png"); background-repeat: repeat-y;}
+
+.msg-erro{
+    color: white; 
+    margin-bottom: 4%;
+}
+
+
+/* Formulário */
+
+#Página1 h2 {
+    color: white;
+    font-size: 45px;
+}
+
+input::placeholder {
+    color: black;
+  }
+
+input#Nome-Completo {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#E-mail {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#Documento-\(CPF\/RG\) {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#Cidade {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+select#Estado {
+    width: 100%;
+    padding: 10px 8px;
+    color: black;
+    border: 2px solid black;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+input#Universidade {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#Formato-\(presencial\/EAD\) {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#Número-de-matrícula {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input#Curso {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+select#Trabalha\? {
+    padding: 10px 8px;
+    color: black;
+    border: 2px solid black;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+select#Necessidades-especiais\? {
+    width: 100%;
+    padding: 10px 8px;
+    color: black;
+    border: 2px solid black;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+input#Se-sim-escreva-aqui {
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+input[type="submit"] {
+    width: 20%;
+    margin-left: 43%;
+    background-color: white;
+    color: black;
+}
