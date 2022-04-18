@@ -69,7 +69,9 @@ var form = document.getElementById('Página1');
                 }).then(
                     response => response.json()
                 ).then((html) => {
-                    window.location.href = "index.html";
+                    envio = document.querySelector(".msg-envio");
+                    envio.innerHTML = "Suas respostas foram enviadas com sucesso!";
+                    envio.style.display = 'block';
                 })
             });
         }
