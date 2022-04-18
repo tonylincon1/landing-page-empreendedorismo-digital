@@ -44,21 +44,25 @@ input::placeholder {
 input#Nome-Completo {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#E-mail {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#Documento-\(CPF\/RG\) {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#Cidade {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 select#Estado {
@@ -68,26 +72,31 @@ select#Estado {
     border: 2px solid black;
     text-align: left;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#Universidade {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#Formato-\(presencial\/EAD\) {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#Número-de-matrícula {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#Curso {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 select#Trabalha\? {
@@ -97,6 +106,7 @@ select#Trabalha\? {
     width: 100%;
     text-align: left;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 select#Necessidades-especiais\? {
@@ -106,16 +116,59 @@ select#Necessidades-especiais\? {
     border: 2px solid black;
     text-align: left;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input#Se-sim-escreva-aqui {
     background-color: white;
     margin-bottom: 1%;
+    border-radius: 1rem;
 }
 
 input[type="submit"] {
-    width: 20%;
-    margin-left: 43%;
     background-color: white;
     color: black;
+    font-size: 100%;
+    border-radius: 1rem;
+}
+
+/* Formulário */
+
+@media (max-width: 1024px) {
+
+ }
+
+
+@media (max-width: 767px) {
+
+ }
+
+@media (max-width: 479px) {
+    #Página1 h2 {
+        font-size: 30px;
+    }
+
+    .content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-radius:0%;
+}
+
+    .btn-active:hover {color: black;}
+
+    #home {
+        background-image: url("../images/inscricao.png"); background-repeat: repeat-y;
+    }
+
+ }
+
+
+@media (max-width: 376px) {
+
+ }
+
+@media (max-width: 320px) { 
+
 }
