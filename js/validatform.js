@@ -3,6 +3,7 @@ var form = document.getElementById('Página1');
     form.addEventListener("submit", function validaCadastro(evt) {
         var nome = document.getElementById('Nome-Completo');
         var email = document.getElementById('E-mail');
+        var idade = document.getElementById('Idade');
         var documento = document.getElementById('Documento-(CPF/RG)');
         var estado = document.getElementById('Estado');
         var cidade = document.getElementById('Cidade');
@@ -13,6 +14,8 @@ var form = document.getElementById('Página1');
         var trabalha = document.getElementById('Trabalha?');
         var necessidades = document.getElementById('Necessidades-especiais?');
         var seSim = document.getElementById('Se-sim-escreva-aqui');
+        var publico = document.getElementById('Publico-de-Reassentamento?');
+        var interesse = document.getElementById('Interesse');
         var contErro = 0;
      
      
@@ -41,10 +44,24 @@ var form = document.getElementById('Página1');
                 contErro += 1;
             }
             }
+
+        /* idade */
+        function verificaIdade (tagErro,tagCampo){
+            caixa = document.querySelector(tagErro);
+            if(tagCampo.value >= 18 & tagCampo.value <= 29){
+                caixa.style.display = 'none';
+            }else{
+                caixa.innerHTML = "*É preciso ter entre 18 e 29 anos para se inscrever";
+                caixa.style.display = 'block';
+                contErro += 1;
+            }
+            }
     
         required('.msg-nome',nome,"Nome")
         required('.msg-email',email,"E-mail")
         validemail('.msg-email',email)
+        required('.msg-idade',idade,"Idade")
+        verificaIdade('.msg-idade',idade)
         required('.msg-documento',documento,"Documento")
         required('.msg-estado',estado,"Estado")
         required('.msg-cidade',cidade,"Cidade")
@@ -54,6 +71,8 @@ var form = document.getElementById('Página1');
         required('.msg-curso',curso,"Curso")
         required('.msg-trabalha',trabalha,"Trabalha?")
         required('.msg-necessidades',necessidades,"Necessidades Especiais")
+        required('.msg-publico',publico,"Público de Reassentamento?")
+        required('.msg-interesse',interesse,"Interesse no programa")
     
     
         if(contErro > 0){
