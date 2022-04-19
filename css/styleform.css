@@ -95,6 +95,7 @@ input#Cidade {
 select#Estado {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: black;
     border: 2px solid black;
     text-align: left;
@@ -128,6 +129,7 @@ input#Curso {
 
 select#Trabalha\? {
     padding: 10px 8px;
+    font-size: 15px;
     color: black;
     border: 2px solid black;
     width: 100%;
@@ -139,6 +141,7 @@ select#Trabalha\? {
 select#Necessidades-especiais\? {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: black;
     border: 2px solid black;
     text-align: left;
@@ -155,6 +158,7 @@ input#Se-sim-escreva-aqui {
 select#Publico-de-Reassentamento\? {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: black;
     border: 2px solid black;
     text-align: left;
@@ -166,6 +170,7 @@ textarea#Interesse {
     width: 100%;
     padding: 10px 8px;
     background-color: white;
+    font-size: 15px;
     color: black;
     border: 2px solid black;
     text-align: left;
