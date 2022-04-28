@@ -77,7 +77,7 @@ html[xmlns] .slides {display: block;}
 	display:block;
 	width:200px;
 	height:100%;
-	font-family:FontAwesome;
+	font-family:'Open Sans', sans-serif;
 	text-align:center;
 	opacity:0;
 }
@@ -145,7 +145,7 @@ html[xmlns] .slides {display: block;}
 
 /* Pause/Play */
 .flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
-.flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
+.flex-pauseplay a:before  { font-family: 'Open Sans', sans-serif; font-size: 20px; display: inline-block; content: '\f004'; }
 .flex-pauseplay a:hover  { opacity: 1; }
 .flex-pauseplay a.flex-play:before { content: '\f003'; }
 
@@ -159,7 +159,7 @@ html[xmlns] .slides {display: block;}
 	display:block;
 	width:50px;
 	height:50px;
-	font-family:FontAwesome;
+	font-family:'Open Sans', sans-serif;
 	text-align:center;
 	background-color:#fff;
 }
@@ -291,7 +291,7 @@ html[xmlns] .slides {display: block;}
 	-webkit-transform: translateY(-50%);
 }
 .top_slider .col-lg-6 .contents .head-title {margin-bottom:15px; display:inline-block; font-weight:500; line-height:80px; font-size:70px;color:white; display: flex; text-align: center; justify-content: center;}
-.top_slider .col-lg-6 .contents .tagp {font-size:15px;color:white; display: flex; text-align: center;}
+.top_slider .col-lg-6 .contents .tagp {font-size:20px;color:white; display: flex; text-align: center;}
 .top_slider .slide1 .flex_caption1 .title3 {margin-bottom:15px; display:inline-block; font-weight:100; line-height:80px; font-size:80px;color:black}
 .top_slider .slide1 .flex_caption1 .title4 {margin-bottom:15px; display:inline-block; width:880px; font-weight:300; line-height:34px; font-size:26px;color:black}
 
@@ -367,7 +367,7 @@ html[xmlns] .slides {display: block;}
 	top:0;
 	width:20px;
 	height:20px;
-	font-family:FontAwesome;
+	font-family:'Open Sans', sans-serif;
 	text-align:right;
 	line-height:66px;
 	font-size:32px;

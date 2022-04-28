@@ -1,4 +1,4 @@
-.content {width: 50%; background-color: black; border-radius: 4%;}
+.content {width: 50%; background-color: #400a46; border-radius: 4%;}
 
 form#Página1 {margin: 4%;}
 
@@ -38,24 +38,21 @@ form#Página1 {margin: 4%;}
 }
 
 input::placeholder {
-    color: black;
+    color: #400a46;
     font-size: 15px;
-    font-family:'Roboto', sans-serif;
-    font-family:inherit;
+    font-family:'Open Sans', sans-serif;
   }
 
 select::placeholder {
-color: black;
+color: #400a46;
 font-size: 15px;
-font-family:'Roboto', sans-serif;
-font-family:inherit;
+font-family:'Open Sans', sans-serif;;
 }
 
 textarea::placeholder {
-    color: black;
+    color: #400a46;
     font-size: 15px;
-    font-family:'Roboto', sans-serif;
-    font-family:inherit;
+    font-family:'Open Sans', sans-serif;
     }
 
 input#Nome-Completo {
@@ -72,8 +69,8 @@ input#E-mail {
 
 input#Idade {
     padding: 10px 8px;
-    color: black;
-    border: 2px solid black;
+    color: #400a46;
+    border: 2px solid #400a46;
     width: 100%;
     text-align: left;
     margin-bottom: 1%;
@@ -96,8 +93,8 @@ select#Estado {
     width: 100%;
     padding: 10px 8px;
     font-size: 15px;
-    color: black;
-    border: 2px solid black;
+    color: #400a46;
+    border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
@@ -130,8 +127,8 @@ input#Curso {
 select#Trabalha\? {
     padding: 10px 8px;
     font-size: 15px;
-    color: black;
-    border: 2px solid black;
+    color: #400a46;
+    border: 2px solid #400a46;
     width: 100%;
     text-align: left;
     margin-bottom: 1%;
@@ -142,8 +139,8 @@ select#Necessidades-especiais\? {
     width: 100%;
     padding: 10px 8px;
     font-size: 15px;
-    color: black;
-    border: 2px solid black;
+    color: #400a46;
+    border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
@@ -159,8 +156,8 @@ select#Publico-de-Reassentamento\? {
     width: 100%;
     padding: 10px 8px;
     font-size: 15px;
-    color: black;
-    border: 2px solid black;
+    color: #400a46;
+    border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
@@ -171,8 +168,8 @@ textarea#Interesse {
     padding: 10px 8px;
     background-color: white;
     font-size: 15px;
-    color: black;
-    border: 2px solid black;
+    color: #400a46;
+    border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
@@ -180,7 +177,7 @@ textarea#Interesse {
 
 input[type="submit"] {
     background-color: white;
-    color: black;
+    color: #400a46;
     font-size: 100%;
     border-radius: 1rem;
 }
@@ -217,7 +214,7 @@ span.msg-erro.msg-envio {
     border-radius:0%;
 }
 
-    .btn-active:hover {color: black;}
+    .btn-active:hover {color: #400a46;}
 
     #home {
         background-image: url("../images/inscricao.png"); background-repeat: repeat-y;
