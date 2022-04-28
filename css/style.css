@@ -2402,6 +2402,18 @@ input[type="color"]:focus {
 		font-size: 15px;
 	}
 
+	.popup {
+		margin-top: 12%;
+	}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 20px;
+	}
+
+	.purpose_block .container1 .popup2 h2 {
+		font-size: 40px;
+	}
+
 
 }
 
@@ -2584,6 +2596,18 @@ input[type="color"]:focus {
 	.purpose_block .container1 #colorpopup5 {
 		font-size: 15px;
 	}
+
+	.popup {
+		margin-top: 12%;
+	}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 20px;
+	}
+
+	.purpose_block .container1 .popup2 h2 {
+		font-size: 40px;
+	}
 	
 	
 }
@@ -2745,6 +2769,25 @@ input[type="color"]:focus {
 		font-size: 10px;
 	}
 
+	.popup {
+		margin-top: 20%;
+		margin-left: 10%;
+		width: 80%;
+	}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 15px;
+	}
+
+	.purpose_block .container1 .popup2 h2 {
+		font-size: 30px;
+	}
+
+	#aprender .purpose_block .row4 p {
+		line-height:30px;
+		text-align: justify;
+	}
+
 
 }
 
@@ -2770,6 +2813,12 @@ input[type="color"]:focus {
 
 	.purpose_block p {
 		font-size: 12px;
+	}
+
+	.popup {
+		margin-top: 25%;
+		margin-left: 10%;
+		width: 80%;
 	}
 
 }
@@ -2822,6 +2871,14 @@ input[type="color"]:focus {
 
 	.purpose_block .btn-active span {
 		font-size: 25px;
+	}
+
+	.popup {
+		margin-top: 30%;
+	}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 12px;
 	}
 
 }
