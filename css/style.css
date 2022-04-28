@@ -2002,11 +2002,19 @@ input[type="color"]:focus {
 		padding: 15px;
 	}
 
+	.pull-left {width: 100%;}
+
+	.pull-left a .logo {
+		max-width: 30%;
+	}
+
 	img {max-width: 70%;}
 
 	h2 {font-size: 50px}
 	
 	#search-form input:focus {width:42px;}
+
+	.pull-right {display: none;}
 	
 
 /* __________ Menu __________ */
@@ -2098,7 +2106,7 @@ input[type="color"]:focus {
 }
 
 @media (max-width: 767px) {
-	.container {padding-left:15px; padding-right:15px;}
+	.container {padding-left:31px; padding-right:15px;}
 	
 	
 	h2 {font-size:30px; line-height:32px;}
@@ -2242,6 +2250,10 @@ input[type="color"]:focus {
 
 	.navmenu ul {display: none;}
 
+	.purpose_block .panel p {
+		font-size: 20px;
+	}
+
 	.time h2 {
 		font-size: 30px;
 		margin: 0;
@@ -2335,7 +2347,11 @@ input[type="color"]:focus {
 @media (max-width: 320px) {
 	.contents {padding-top: 25%;}
 	.logo a {font-size: 16px;}
-	.time h2 {font-size: 30px;}
+	.time h2 {font-size: 20px;}
+
+	.purpose_block .panel p {
+		font-size: 15px;
+	}
 
 	img {max-width: 100%;}
 
