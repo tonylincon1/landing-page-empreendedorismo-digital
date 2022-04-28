@@ -4,7 +4,7 @@ const hoursContainer1 = document.querySelector('#hours1')
 const daysContainer1 = document.querySelector('#days1')
 
 const nextYear1 = new Date().getFullYear()
-const newYearTime1 = new Date(`May 31 ${nextYear} 00:00:00`)
+const newYearTime1 = new Date(`May 31 ${nextYear1} 00:00:00`)
 const countdownContainer1 = document.querySelector('#countdown1')
 
 const getTimeUnit1 = unit =>  unit < 10 ? '0' + unit : unit
@@ -32,7 +32,6 @@ const updateCountdown1 = () => {
 
 
 const handleCountdownDisplay1 = () => {
-    spinnerLoadig.remove()
     countdownContainer1.style.display = 'flex'
 }
 

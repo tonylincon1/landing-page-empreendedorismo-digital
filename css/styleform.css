@@ -1,12 +1,17 @@
-.content {width: 50%; background-color: #400a46; border-radius: 4%;}
+.content {width: 50%; background-color: #62186a; border-radius: 4%;}
 
-form#Página1 {margin: 4%;}
+form#Página1 {margin: 4%; text-align: center;}
 
 .containerforms{padding-top:8%;text-align: center;width:50%}
 
 .forms h2 {
     color: white;
-    text-align: center;
+    text-align: left;
+}
+
+.forms h3 {
+    color: white;
+    text-align: left;
 }
 
 .forms p {
@@ -22,7 +27,7 @@ form#Página1 {margin: 4%;}
 }
 
 .forms {display: flex; justify-content: right; padding-right: 2%; padding-left: 2%; padding-bottom: 10%; padding-top: 5%;
-    background-image: url("../images/inscricao.png"); background-repeat: repeat-y;}
+    background: #400a46; background-repeat: repeat-y;}
 
 .msg-erro{
     color: white; 
@@ -35,6 +40,7 @@ form#Página1 {margin: 4%;}
 #Página1 h2 {
     color: white;
     font-size: 45px;
+    text-align: center;
 }
 
 input::placeholder {
@@ -191,10 +197,20 @@ span.msg-erro.msg-envio {
 
 @media (max-width: 1024px) {
 
+    .forms .texto h3 {
+        font-size: 20px;
+    }
+
+    .forms .texto h2 {
+        font-size: 40px;
+    }
+
  }
 
 
 @media (max-width: 767px) {
+
+    
 
  }
 
