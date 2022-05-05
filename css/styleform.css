@@ -12,6 +12,11 @@ form#Página1 {margin: 4%; text-align: center;}
 .forms h3 {
     color: white;
     text-align: left;
+    line-height: 40px;
+}
+
+.forms h2 {
+    line-height: 60px;
 }
 
 .forms p {
