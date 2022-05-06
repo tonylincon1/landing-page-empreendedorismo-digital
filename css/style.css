@@ -374,7 +374,7 @@ header {
 }
 
 .pull-left a .logo {
-	max-width: 80%;
+	max-width: 35%;
 	padding:20px 0px;
 }
 .logo a {
@@ -1975,9 +1975,13 @@ input[type="color"]:focus {
 .comment_note {padding-top:11px; font-size:12px;}
 
 
+.mb-2 {
+    display: flex;
+    justify-content: center;
+}
 
 .mb-2 img {
-	width: 50%;
+	width: 30%;
 	margin-bottom: 2%;
 }
 
@@ -2151,7 +2155,7 @@ input[type="color"]:focus {
 	}
 
 	.pull-left a .logo {
-		padding: 24px 0px;
+		padding: 18px 0px;
 	}
 
 	.pull-left {
@@ -2359,7 +2363,7 @@ input[type="color"]:focus {
 	}
 
 	.pull-left a .logo {
-		max-width:60%;
+		max-width:40%;
 	}
 
 	.pull-left {
@@ -2737,7 +2741,7 @@ input[type="color"]:focus {
 	}
 
 	.pull-left a .logo {
-		max-width: 100%;
+		max-width: 40%;
 	}
 
 	.container {
@@ -2879,6 +2883,10 @@ input[type="color"]:focus {
 
 	.purpose_block .container1 .popup2 p {
 		font-size: 12px;
+	}
+
+	.pull-left a .logo {
+		max-width: 50%;
 	}
 
 }
