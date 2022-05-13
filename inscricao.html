@@ -12,7 +12,6 @@
     
 	<!-- CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/loader.css" rel="stylesheet" type="text/css">
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
 	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
@@ -164,7 +163,7 @@
 					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Formato (Presencial/EAD)">
 					  <span class='msg-erro msg-formato'></span>
 
-					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="text" placeholder="Número de matrícula">
+					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="text" placeholder="Número de Matrícula">
 					  <span class='msg-erro msg-matricula'></span>
 
 					  <input id="Curso" name="Curso" type="text" placeholder="Curso">
@@ -177,8 +176,8 @@
 					  </select>
 					  <span class='msg-erro msg-trabalha'></span>
 
-					  <select id="Necessidades-especiais?" name="Necessidades-especiais?" placeholder="Necessidades especiais?">
-						<option value="">Necessidades especiais?</option>
+					  <select id="Necessidades-especiais?" name="Necessidades-especiais?" placeholder="Necessidades Especiais?">
+						<option value="">Necessidades Especiais?</option>
 						<option value="Sim">Sim</option>
 						<option value="Não">Não</option>
 					  </select>
@@ -196,6 +195,25 @@
 
 					  <textarea id="Interesse" name="Interesse" placeholder="Escreva sobre seu interesse no programa"></textarea>
 					  <span class='msg-erro msg-interesse'></span>
+
+					  <input type="text" name="LinkQuetionario" class="LinkQuetionario" id="LinkQuetionario" placeholder="*Link do PDF do Questionário de Deligência no Google Drive">
+					  <span class='msg-erro msg-questionario'></span>
+
+					  <div class="Politicadiv">
+						<input type="checkbox" id="Politica" name="Politica" value="Aceito a Política de Privacidade e Proteção de Dados" required>
+						<label for="Politica">Li e concordo com a <a href="#popuppolitica">política de privacidade e proteção de dados</a></label>
+							<div id="popuppolitica" class="overlay1">
+								<div class="popupforms">
+									<a class="close" href="#LinkQuetionario">&times;</a>
+									<img class = "logo" src="images/politica/1.png" alt="">
+									<img class = "logo" src="images/politica/2.png" alt="">
+									<img class = "logo" src="images/politica/3.png" alt="">
+									<img class = "logo" src="images/politica/4.png" alt="">
+								</div>
+							</div>
+					  </div>
+					  <span class='msg-erro msg-politica'></span>
+  					  
 				  
 					  <input class="btn btn-active" type="submit" value="Enviar">
 					  <span class='msg-erro msg-envio'></span>
@@ -213,7 +231,8 @@
 					<div class="text-white-50 small">
 						<div class="mb-2"><img src="images/logo_final.png" alt=""></div>
 						<p>Ainda tem dúvidas? Entre em contato conosco:</p>
-						<p><i class="fa fa-envelope"> campustech@email.com</i></p>
+						<p><i class="fa fa-envelope"> oficial@campustechmariana.com.br</i></p>
+						<p><i class="fa fa-phone"> +55 31 3401-1046</i></p>
 						<div class="mb-2">&copy; Todos os direitos reservados a Campus Tech, 2022.</div>
 					</div>
 				</div>
@@ -227,7 +246,6 @@
 
 </div>
 
-<script src="js/countdownHeader.js"></script>
 <script src="js/validatform.js"></script>
 </body>
 </html>
