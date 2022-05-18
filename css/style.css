@@ -246,6 +246,17 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 .purpose_block .container1 #colorpopup4 {background-color:white; color:#00baa7; border-color:#00baa7; border-radius: 10px;}
 .purpose_block .container1 #colorpopup5 {background-color:#fb133a; color:#fff; border-color:#fb133a; border-radius: 10px;}
 
+.purpose_block .container1 #colorpopup1 h5 {background-color:white; color:#fb133a; border-color:#fb133a;}
+.purpose_block .container1 #colorpopup2 h5 {background-color:white; color:#ff8701; border-color:#ff8701;}
+.purpose_block .container1 #colorpopup3 h5 {background-color:white; color:#62186A; border-color:#62186A; }
+.purpose_block .container1 #colorpopup4 h5 {background-color:white; color:#00baa7; border-color:#00baa7;}
+.purpose_block .container1 #colorpopup5 h5 {background-color:#fb133a; color:#fff; border-color:#fb133a;}
+.purpose_block .container1 #colorpopup1 h5,
+.purpose_block .container1 #colorpopup2 h5,
+.purpose_block .container1 #colorpopup3 h5,
+.purpose_block .container1 #colorpopup4 h5,
+.purpose_block .container1 #colorpopup5 h5{border-radius: 10px; margin: 2%; line-height: 120%; font-size: 80%; font-weight: bold;white-space: pre-wrap;}
+
 .btn-active:hover {color:#fff;}
 
 
@@ -297,7 +308,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 }
 
 .popup {
-	margin-top: 15%;
+	margin-top: 10%;
     margin-left: 15%;
     padding: 20px;
     background: #fff;
@@ -305,6 +316,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
     width: 70%;
     position: relative;
     transition: all 5s ease-in-out;
+	overflow-y: auto;
 }
 
 .popupforms {

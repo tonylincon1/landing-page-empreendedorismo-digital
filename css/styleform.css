@@ -192,6 +192,10 @@ input#LinkQuetionario {
     border-radius: 1rem;
 }
 
+input[type="file"] {
+    display: inline-block;
+}
+
 label {
     color: white;
     font-size: 15px
@@ -218,7 +222,8 @@ input[type="submit"], input[type="file"] {
 
 span.msg-erro.msg-envio {
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 /* Formulário */

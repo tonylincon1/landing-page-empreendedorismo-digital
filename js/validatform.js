@@ -88,8 +88,6 @@ var form = document.getElementById('Página1');
         required('.msg-necessidades',necessidades,"Necessidades Especiais")
         required('.msg-publico',publico,"Público de Reassentamento?")
         required('.msg-interesse',interesse,"Interesse no programa")
-        required('.msg-questionario',interesse,"Link do Questionário")
-        validlink('.msg-questionario',LinkQuetionario)
     
     
         if(contErro > 0){
@@ -99,15 +97,18 @@ var form = document.getElementById('Página1');
         else {
             form.addEventListener("submit", e => {
                 e.preventDefault();
-                fetch("https://sheetdb.io/api/v1/rw3dv8wtbkrpx", {
+                fetch("https://hook.us1.make.com/yfvgtvpc8hg5te3na3uy4ntjxxt72knz", {
                     method : "POST",
                     body: new FormData(document.getElementById("Página1")),
                 }).then(
-                    response => response.json()
+                    response => response.toString()
                 ).then((html) => {
                     envio = document.querySelector(".msg-envio");
                     envio.innerHTML = "Suas respostas foram enviadas com sucesso!";
                     envio.style.display = 'block';
+                    setTimeout(function() {
+                        window.location.href = "index.html";
+                    }, 4000);
                 })
             });
         }
