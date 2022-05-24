@@ -98,6 +98,16 @@ input#Idade {
     border-radius: 1rem;
 }
 
+input#Telefone {
+    padding: 10px 8px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
 input#Documento-\(CPF\/RG\) {
     background-color: white;
     margin-bottom: 1%;

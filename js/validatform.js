@@ -77,6 +77,7 @@ var form = document.getElementById('Página1');
         validemail('.msg-email',email)
         required('.msg-idade',idade,"Idade")
         verificaIdade('.msg-idade',idade)
+        required('.msg-telefone',idade,"Telefone")
         required('.msg-documento',documento,"Documento")
         required('.msg-estado',estado,"Estado")
         required('.msg-cidade',cidade,"Cidade")
