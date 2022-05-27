@@ -58,6 +58,12 @@ form#Página1 {margin: 4%; text-align: center;}
     text-align: center;
 }
 
+h6 {
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
 input::placeholder {
     color: #400a46;
     font-size: 15px;
